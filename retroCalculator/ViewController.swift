@@ -57,10 +57,8 @@ class ViewController: UIViewController {
         runningNumber = ""
         leftValStr = ""
         rightValStr = ""
-        //currentOperation: Operation = Operation.Empty
+        currentOperation = Operation.Empty
         result = ""
-        //op = ""
-        processOperation(Operation.Empty)
         outputLbl.text = "0"
     }
 
